@@ -1,0 +1,17 @@
+# Logs and cache
+*.log
+.pytest_cache/
+__pycache__/
+.vscode/
+
+# Environment files
+.env
+
+# Dependencies in subfolders (if any)
+node_modules/
+target/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
