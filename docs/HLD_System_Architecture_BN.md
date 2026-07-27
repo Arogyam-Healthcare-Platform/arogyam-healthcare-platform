@@ -560,7 +560,9 @@ sequenceDiagram
     Sig->>P: Forward SDP Answer + Doctor Candidates
     
     Note over P,D: Direct P2P Encrypted WebRTC Media Pipeline Established (No Server Overhead!)
-    P<===>D: Real-Time HD Video & Audio Stream (SRTP Encryption)
+    P-->>D: Real-Time HD Video & Audio Stream (P2P SRTP)
+    D-->>P: Real-Time HD Video & Audio Stream (P2P SRTP)
+```
 ```
 
 ---
